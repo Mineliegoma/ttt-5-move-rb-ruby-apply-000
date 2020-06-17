@@ -4,7 +4,11 @@ require_relative "../lib/move.rb"
    #board[index]=player_character
    
  
-
+def move (board,index,player_character="X")
+   
+   board[index]=player_character
+   
+  
    
 describe './lib/move.rb' do
   
