@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-top<require>
+<top(require)>
 
 require_relative '../lib/move.rb'
 
