@@ -9,7 +9,5 @@ puts "Welcome to Tic Toc Toe!"
 #board=[" ", " ", " "," ", " ", " "," ", " "," "]
 puts "Where would you like to go"
 input= gets.strip
-index=gets.strip
-display_board(board)
 move (board,index,player_character="X)
 display_board(board)
