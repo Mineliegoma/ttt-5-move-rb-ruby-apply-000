@@ -1,5 +1,12 @@
 require_relative "../lib/move.rb"
 
+def input_to_index(input)
+ 
+  puts " #{input}"
+  
+  input.to_i
+  
+
 
 describe '#input_to_index' do
 it 'converts a user_input to an integer' do
@@ -22,6 +29,7 @@ it 'converts a user_input to an integer' do
     
     expect(converted_input).to be(-1)
   end
+end
 end
 
 
