@@ -1,4 +1,11 @@
 require_relative "../lib/move.rb"
+puts "Welcome to Tic Toc Toe!"
+board=[" ", " ", " "," ", " ", " "," ", " "," "]
+puts "Where would you like to go"
+input= gets.strip
+index=gets.strip
+move (board,index,player_character="X")
+display_board(board)
 
 
 describe './bin/move executing a CLI Application' do
@@ -75,4 +82,5 @@ describe './bin/move executing a CLI Application' do
 
     expect(output).to include(" X |   |   ")
   end
+end
 end
