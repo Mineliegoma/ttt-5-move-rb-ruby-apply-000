@@ -1,8 +1,6 @@
 require_relative "../lib/move.rb"
 
 
-board=[" ", " ", " "," ", " ", " "," ", " "," "]
-
 describe './bin/move executing a CLI Application' do
   it 'defines a board variable' do
     allow($stdout).to receive(:puts)
