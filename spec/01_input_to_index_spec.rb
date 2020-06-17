@@ -2,7 +2,7 @@ require_relative "../lib/move.rb"
 
 def input_to_index(input)
  
-  puts " #{input}"
+  #puts " #{input}"
   
   input.to_i
   
