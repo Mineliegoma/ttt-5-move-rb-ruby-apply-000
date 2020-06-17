@@ -30,6 +30,6 @@ it 'converts a user_input to an integer' do
   end
 end
 end
-end
+
 
 
