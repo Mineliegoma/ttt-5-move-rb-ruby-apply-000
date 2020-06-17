@@ -1,16 +1,6 @@
 require_relative "../lib/move.rb"
-#def move (board,index,player_character="x")
-   
-   #board[index]=player_character
-   
- 
-def move (board,index,player_character="X")
-   
-   board[index]=player_character
-   
-  
-   
-describe './lib/move.rb' do
+
+   describe './lib/move.rb' do
   
    
   it 'defines a move method' do
@@ -81,4 +71,4 @@ describe './lib/move.rb' do
       expect(board).to eq(["X", "O", "X", "O", "X", "O", "X", "X", "O"])
     end
   end
-end
+
