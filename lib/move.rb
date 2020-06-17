@@ -25,4 +25,4 @@ def move (board,index,player_character="X")
    
  end 
  
- #move(board, 0,"X")
+ 
