@@ -68,6 +68,7 @@ require_relative "../lib/move.rb"
       expect(board).to eq(["X", "O", "X", "O", "X", "O", "X", "X", "O"])
     end
   end
+end
 
 
 
