@@ -6,6 +6,7 @@ def input_to_index(input)
   
   input.to_i
   
+  input.to_i - 1
 
 
 describe '#input_to_index' do
