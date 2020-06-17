@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
-<top(require)>
 
 require_relative '../lib/move.rb'
+
 
 # Code your CLI Here
 puts "Welcome to Tic Toc Toe!"
