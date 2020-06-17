@@ -74,5 +74,5 @@ def move (board,index,player_character="X")
     end
   end
 end
-end
+
 
