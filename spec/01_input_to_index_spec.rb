@@ -22,6 +22,7 @@ it 'converts a user_input to an integer' do
     expect(converted_input).to be(-1)
   end
 end
+end
 
 
 
