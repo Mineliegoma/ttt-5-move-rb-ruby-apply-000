@@ -82,4 +82,3 @@ describe './lib/move.rb' do
     end
   end
 end
-end
