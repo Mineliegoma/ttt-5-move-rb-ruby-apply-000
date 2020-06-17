@@ -73,6 +73,6 @@ def move (board,index,player_character="X")
       expect(board).to eq(["X", "O", "X", "O", "X", "O", "X", "X", "O"])
     end
   end
-end
+
 
 
