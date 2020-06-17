@@ -1,6 +1,14 @@
 require_relative "../lib/move.rb"
+#def move (board,index,player_character="x")
+   
+   #board[index]=player_character
+   
+ 
 
+   
 describe './lib/move.rb' do
+  
+   
   it 'defines a move method' do
     board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
     expect(defined?(move)).to be_truthy
